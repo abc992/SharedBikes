@@ -78,7 +78,7 @@ The equation of our best fitted line is:
 ## Acknowledgements
 - This project was inspired by upGrad Course.
 - References:
--  https://en.wikipedia.org/wiki/Anscombe%27s_quartet![image](https://user-images.githubusercontent.com/73323691/188327785-fcb598f8-9e2d-412c-a210-2266ff64df09.png) (To get the history and data for Anscombe's quartet datasets)
+- https://en.wikipedia.org/wiki/Anscombe%27s_quartet(To get the history and data for Anscombe's quartet datasets)
 
 - This project was based on [upGrad_MSC_Course]
 
