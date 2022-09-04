@@ -47,6 +47,17 @@ weathersit_MistCloudy:            -0.059
 The equation of our best fitted line is:
 
 𝑐𝑛𝑡=0.291+(0.231×𝑦𝑟)+(0.052×𝑤𝑜𝑟𝑘𝑖𝑛𝑔𝑑𝑎𝑦)+(0.479×𝑡𝑒𝑚𝑝)−(0.145×𝐻𝑢𝑚𝑖𝑑𝑖𝑡𝑦)−(0.176×𝑤𝑖𝑛𝑑𝑠𝑝𝑒𝑒𝑑)−(0.108×𝑠𝑒𝑎𝑠𝑜𝑛_𝑠𝑝𝑟𝑖𝑛𝑔)+(0.057×𝑠𝑒𝑎𝑠𝑜𝑛_𝑤𝑖𝑛𝑡𝑒𝑟)−(0.077×𝑚𝑛𝑡ℎ_𝐽𝑢𝑙𝑦)+(0.057×𝑚𝑛𝑡ℎ_𝑆𝑒𝑝𝑡𝑒𝑚𝑏𝑒𝑟)+(0.062×𝑤𝑒𝑒𝑘𝑑𝑎𝑦_𝑆𝑎𝑡)−(0.250×𝑤𝑒𝑎𝑡ℎ𝑒𝑟𝑠𝑖𝑡_𝐿𝑖𝑔ℎ𝑡𝑆𝑛𝑜𝑤𝐿𝑖𝑔ℎ𝑡𝑅𝑎𝑖𝑛)−(0.059×𝑤𝑒𝑎𝑡ℎ𝑒𝑟𝑠𝑖𝑡_𝑀𝑖𝑠𝑡𝐶𝑙𝑜𝑢𝑑𝑦)
+# Insights
+- From R-Sqaured and adj R-Sqaured value of both train and test dataset we could conclude that the above variables can well explain more than 80% of bike demand.
+- Coeffiencients of the variables explains the factors effecting the bike demand
+
+- Based on final model top three features contributing significantly towards explaining the demand are:
+    1. Temperature (0.479)
+    2. weathersit : LightSnowLightRain+MistCloudy (-0.309)
+    3. year (0.231)
+
+
+- **So it recomended to give these variables utmost importance while planning to achieve maximum demand.**
 
 ## Technologies Used
 - numpy 
