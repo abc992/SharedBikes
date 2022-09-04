@@ -25,20 +25,20 @@ R- Sqaured test : 0.82 Adj. R-Squared test : 0.81
 
 Variable's Coefficents :
 
-const                            0.291
-yr                               0.231
-workingday                       0.052
-temp                             0.479
-hum                             -0.145
-windspeed                       -0.176
-season_spring                   -0.108
-season_winter                    0.057
-mnth_July                       -0.077
-mnth_September                   0.057
-weekday_Sat                      0.062
-weathersit_LightSnowLightRain   -0.250
-weathersit_MistCloudy           -0.059
-dtype: float64
+const                            0.291  
+yr                               0.231  
+workingday                       0.052  
+temp                             0.479  
+hum                             -0.145  
+windspeed                       -0.176  
+season_spring                   -0.108  
+season_winter                    0.057  
+mnth_July                       -0.077  
+mnth_September                   0.057  
+weekday_Sat                      0.062  
+weathersit_LightSnowLightRain   -0.250  
+weathersit_MistCloudy           -0.059  
+
 
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
