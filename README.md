@@ -25,26 +25,26 @@ R- Sqaured test : 0.82 Adj. R-Squared test : 0.81
 
 Variable's Coefficents :
 
-const                            0.291  
-yr                               0.231  
-workingday                       0.052  
-temp                             0.479  
-hum                             -0.145  
-windspeed                       -0.176  
-season_spring                   -0.108  
-season_winter                    0.057  
-mnth_July                       -0.077  
-mnth_September                   0.057  
-weekday_Sat                      0.062  
-weathersit_LightSnowLightRain   -0.250  
-weathersit_MistCloudy           -0.059  
+const:                             0.291  
+yr:                                0.231  
+workingday:                        0.052  
+temp:                              0.479  
+hum:                              -0.145  
+windspeed:                        -0.176  
+season_spring:                    -0.108  
+season_winter:                     0.057  
+mnth_July:                        -0.077  
+mnth_September:                    0.057  
+weekday_Sat:                       0.062  
+weathersit_LightSnowLightRain:    -0.250  
+weathersit_MistCloudy:            -0.059  
 
 
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 The equation of our best fitted line is:
 
-$ cnt =0.291 + (0.231  \times  yr) + (0.052  \times  workingday) + (0.479 \times temp) - (0.145 \times Humidity) - (0.176 \times windspeed) - (0.108 \times season\_spring) + (0.057 \times season\_winter) - (0.077 \times mnth\_July) + (0.057 \times mnth\_September) +  (0.062 \times weekday\_Sat) - (0.250 \times weathersit\_LightSnowLightRain) - (0.059 \times weathersit\_MistCloudy)$
+𝑐𝑛𝑡=0.291+(0.231×𝑦𝑟)+(0.052×𝑤𝑜𝑟𝑘𝑖𝑛𝑔𝑑𝑎𝑦)+(0.479×𝑡𝑒𝑚𝑝)−(0.145×𝐻𝑢𝑚𝑖𝑑𝑖𝑡𝑦)−(0.176×𝑤𝑖𝑛𝑑𝑠𝑝𝑒𝑒𝑑)−(0.108×𝑠𝑒𝑎𝑠𝑜𝑛_𝑠𝑝𝑟𝑖𝑛𝑔)+(0.057×𝑠𝑒𝑎𝑠𝑜𝑛_𝑤𝑖𝑛𝑡𝑒𝑟)−(0.077×𝑚𝑛𝑡ℎ_𝐽𝑢𝑙𝑦)+(0.057×𝑚𝑛𝑡ℎ_𝑆𝑒𝑝𝑡𝑒𝑚𝑏𝑒𝑟)+(0.062×𝑤𝑒𝑒𝑘𝑑𝑎𝑦_𝑆𝑎𝑡)−(0.250×𝑤𝑒𝑎𝑡ℎ𝑒𝑟𝑠𝑖𝑡_𝐿𝑖𝑔ℎ𝑡𝑆𝑛𝑜𝑤𝐿𝑖𝑔ℎ𝑡𝑅𝑎𝑖𝑛)−(0.059×𝑤𝑒𝑎𝑡ℎ𝑒𝑟𝑠𝑖𝑡_𝑀𝑖𝑠𝑡𝐶𝑙𝑜𝑢𝑑𝑦)
 
 ## Technologies Used
 - numpy version: 1.21.5
