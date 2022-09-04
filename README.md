@@ -49,11 +49,18 @@ The equation of our best fitted line is:
 𝑐𝑛𝑡=0.291+(0.231×𝑦𝑟)+(0.052×𝑤𝑜𝑟𝑘𝑖𝑛𝑔𝑑𝑎𝑦)+(0.479×𝑡𝑒𝑚𝑝)−(0.145×𝐻𝑢𝑚𝑖𝑑𝑖𝑡𝑦)−(0.176×𝑤𝑖𝑛𝑑𝑠𝑝𝑒𝑒𝑑)−(0.108×𝑠𝑒𝑎𝑠𝑜𝑛_𝑠𝑝𝑟𝑖𝑛𝑔)+(0.057×𝑠𝑒𝑎𝑠𝑜𝑛_𝑤𝑖𝑛𝑡𝑒𝑟)−(0.077×𝑚𝑛𝑡ℎ_𝐽𝑢𝑙𝑦)+(0.057×𝑚𝑛𝑡ℎ_𝑆𝑒𝑝𝑡𝑒𝑚𝑏𝑒𝑟)+(0.062×𝑤𝑒𝑒𝑘𝑑𝑎𝑦_𝑆𝑎𝑡)−(0.250×𝑤𝑒𝑎𝑡ℎ𝑒𝑟𝑠𝑖𝑡_𝐿𝑖𝑔ℎ𝑡𝑆𝑛𝑜𝑤𝐿𝑖𝑔ℎ𝑡𝑅𝑎𝑖𝑛)−(0.059×𝑤𝑒𝑎𝑡ℎ𝑒𝑟𝑠𝑖𝑡_𝑀𝑖𝑠𝑡𝐶𝑙𝑜𝑢𝑑𝑦)
 
 ## Technologies Used
-- numpy version: 1.21.5
-- pandas version: 1.4.2
-- seaborn version: 0.11.2
-- matplotlib version: 3.5.1
-- Missingno Version : 0.4.2
+- numpy 
+- pandas  
+- seaborn  
+- matplotlib  
+- statsmodels.api   
+- sklearn.model_selection=
+- sklearn.preprocessing 
+- sklearn.feature_selection 
+- sklearn.linear_model 
+- statsmodels.stats.outliers_influence 
+- sklearn.metrics import 
+- IPython.display
 
 
 
